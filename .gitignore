@@ -45,3 +45,5 @@ logs/
 *.json
 output/
 data_generator/generated_data
+.opencode
+docs
