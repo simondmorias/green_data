@@ -1,5 +1,8 @@
 # Coding Guidelines for AI Agents
 
+## Repo Layout
+- Follow the repository file/folder layout described here: docs/components/data/repo_layout.md
+
 ## Build/Test Commands
 ```bash
 # Data Generator
@@ -26,3 +29,6 @@ cd etl && make format    # Auto-format code with black
 - **Naming**: snake_case for functions/variables, PascalCase for classes, UPPER_CASE for constants
 - **Testing**: unittest.TestCase for data_generator, pytest for etl
 - **Data Validation**: Always validate shapes, dtypes, and business constraints
+
+## Documentation
+- All documents related to the repo are in ./docs/data/ - the other folders in ./docs are READ ONLY
